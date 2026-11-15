@@ -1,72 +1,12 @@
 # Tableau Business Intelligence & Data Analytics Projects
 
-A collection of five interactive Tableau dashboards developed as part of the **Business Intelligence & Data Analyst (BIDA) Certification**. The projects apply data preparation, data modelling, calculated fields, Level of Detail (LOD) expressions, parameter-driven analysis and interactive visualization across e-commerce, retail, market intelligence and sales performance.
+Five interactive Tableau dashboards developed as part of the **Business Intelligence & Data Analyst (BIDA) Certification**, covering e-commerce, retail, market intelligence and sales analytics. Projects apply Tableau's data modelling, calculated fields, LOD expressions, parameters, advanced filtering and interactive dashboard design.
 
 **Tableau Public:** [Muhammad Abdullah](https://public.tableau.com/app/profile/muhammad.abdullah7552)
 
 ---
 
-## Dashboard Showcase
-
-The following dashboards demonstrate applications of business intelligence and data visualization, with a focus on commercial performance, geographic analysis, profitability and interactive reporting.
-
-### 1. Calwest E-Commerce Performance Summary
-
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestE-CommercePerformanceSummary_17864809409940/Dashboard1)**
-
-[![Calwest E-Commerce Performance Summary](./tableau-projects/calwest-ecommerce-performance.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestE-CommercePerformanceSummary_17864809409940/Dashboard1)
-
-**Overview**
-
-An executive-level dashboard analyzing e-commerce revenue, profitability, order activity and product-level performance across categories and subcategories.
-
-**Key Features:**
-- **Executive KPI Cards:** Eight key metrics covering Average Order Value (AOV), discounts, gross revenue, order count, profit, profit margin, revenue and units sold, with customized number formatting and percentage scaling.
-- **Parameter-Driven Measure Selection:** A `Select Measure` parameter linked to a calculated field dynamically switches the metric displayed in the primary trendline and category breakdowns.
-- **Time-Series Analysis:** Multi-line chart tracking monthly profit by product category from January 2020 to July 2021, supported by a continuous Order Date range slider.
-- **Profitability and Revenue Analysis:** Scatter plot comparing profit margin against gross revenue by product, using shape and color to distinguish product categories and identify high-revenue, low-margin products.
-- **Hierarchical Category Analysis:** Descending bar chart organizing product subcategories under parent categories, including Pet Food, Food and Beverages, and Personal Care, with color-coded category groupings.
-
----
-
-### 2. Calwest Regional Performance Summary
-
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestRegionalPerformanceSummary_17864801314860/Dashboard2)**
-
-[![Calwest Regional Performance Summary](./tableau-projects/calwest-regional-performance.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestRegionalPerformanceSummary_17864801314860/Dashboard2)
-
-**Overview**
-
-A geographic and promotional performance dashboard examining regional sales distribution, product-level revenue and the contribution of promotional campaigns to overall sales.
-
-**Key Features:**
-- **Dual-Layer Geographic Map:** Combines a filled map distinguishing the four US regions (Central, East, South and West) with a proportional symbol overlay sized by state-level gross revenue.
-- **Promotional Mix Analysis:** 100% stacked bar chart comparing the percentage of gross revenue generated with and without promotions across monthly intervals from 2020 to 2021, using a Percent of Total table calculation computed along Table (Down).
-- **Product Treemap:** Visualizes gross revenue by product subcategory, using rectangle size to represent revenue, color to distinguish product categories and embedded labels to display profit margins.
-- **Cross-Dashboard Navigation:** Custom navigation icon allows users to move between the E-Commerce and Regional Performance dashboards.
-
----
-
-### 3. Fastest Growing Private Companies in the US
-
-**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/PrivateCompaniesUS/Dashboard1)**
-
-[![Fastest Growing Private Companies in the US](./tableau-projects/private-companies-US.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/PrivateCompaniesUS/Dashboard1)
-
-**Overview**
-
-An interactive market intelligence dashboard examining revenue concentration, geographic distribution and workforce efficiency across high-growth private companies in the United States.
-
-**Key Features:**
-- **Dynamic Top-N Analysis:** Integer parameter allows users to select the number of leading companies by revenue. Combined with an Industry Context Filter, this ensures that Top-N rankings are calculated within the selected industry.
-- **Context Filtering and Order of Operations:** Uses context filters to ensure industry selections are evaluated before Top-N ranking, allowing accurate comparisons within specific sectors.
-- **Geographic Choropleth Map:** Maps company distribution across all 50 US states, including Alaska and Hawaii, using a sequential blue color scale to represent company counts.
-- **Industry Treemap:** Compares industry sectors through rectangle size, representing aggregate revenue and company count, and diverging color intensity, representing profit per worker.
-- **Interactive Filtering and Reset:** Click-to-filter actions connect the map, treemap and bar chart, while a reset button clears selected filters and restores the default dashboard view.
-
----
-
-### 4. Performance by Location (Superstore Retail)
+### 1. Performance by Location (Superstore Retail)
 
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/PerformancebyLocationDashboard_17863871580720/Dashboard2)**
 
@@ -85,7 +25,7 @@ A regional retail performance dashboard analyzing geographic sales distribution,
 
 ---
 
-### 5. Sales Dashboard (Executive Overview)
+### 2. Sales Dashboard (Executive Overview)
 
 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/SalesandPerformanceDashboard_17863866022850/Dashboard1)**
 
@@ -103,6 +43,60 @@ An executive dashboard combining sales performance, customer profitability and m
 - **Time-Series Analysis:** Monthly sales trend covering November 2015 to November 2019, allowing comparisons across product categories while preserving the overall trend.
 - **Category and Subcategory Analysis:** Sales by category and subcategory displayed through labeled bar charts with custom borders and value labels.
 - **Dashboard Navigation:** Custom navigation icons provide direct access to the Location and Product dashboard views.
+
+---
+### 3. Fastest Growing Private Companies in the US
+
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/PrivateCompaniesUS/Dashboard1)**
+
+[![Fastest Growing Private Companies in the US](./tableau-projects/private-companies-US.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/PrivateCompaniesUS/Dashboard1)
+
+**Overview**
+
+An interactive market intelligence dashboard examining revenue concentration, geographic distribution and workforce efficiency across high-growth private companies in the United States.
+
+**Key Features:**
+- **Dynamic Top-N Analysis:** Integer parameter allows users to select the number of leading companies by revenue. Combined with an Industry Context Filter, this ensures that Top-N rankings are calculated within the selected industry.
+- **Context Filtering and Order of Operations:** Uses context filters to ensure industry selections are evaluated before Top-N ranking, allowing accurate comparisons within specific sectors.
+- **Geographic Choropleth Map:** Maps company distribution across all 50 US states, including Alaska and Hawaii, using a sequential blue color scale to represent company counts.
+- **Industry Treemap:** Compares industry sectors through rectangle size, representing aggregate revenue and company count, and diverging color intensity, representing profit per worker.
+- **Interactive Filtering and Reset:** Click-to-filter actions connect the map, treemap and bar chart, while a reset button clears selected filters and restores the default dashboard view.
+---
+
+### 4. Calwest E-Commerce Performance Summary
+
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestE-CommercePerformanceSummary_17864809409940/Dashboard1)**
+
+[![Calwest E-Commerce Performance Summary](./tableau-projects/calwest-ecommerce-performance.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestE-CommercePerformanceSummary_17864809409940/Dashboard1)
+
+**Overview**
+
+An executive-level dashboard analyzing e-commerce revenue, profitability, order activity and product-level performance across categories and subcategories.
+
+**Key Features:**
+- **Executive KPI Cards:** Eight key metrics covering Average Order Value (AOV), discounts, gross revenue, order count, profit, profit margin, revenue and units sold, with customized number formatting and percentage scaling.
+- **Parameter-Driven Measure Selection:** A `Select Measure` parameter linked to a calculated field dynamically switches the metric displayed in the primary trendline and category breakdowns.
+- **Time-Series Analysis:** Multi-line chart tracking monthly profit by product category from January 2020 to July 2021, supported by a continuous Order Date range slider.
+- **Profitability and Revenue Analysis:** Scatter plot comparing profit margin against gross revenue by product, using shape and color to distinguish product categories and identify high-revenue, low-margin products.
+- **Hierarchical Category Analysis:** Descending bar chart organizing product subcategories under parent categories, including Pet Food, Food and Beverages, and Personal Care, with color-coded category groupings.
+
+---
+
+### 5. Calwest Regional Performance Summary
+
+**[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestRegionalPerformanceSummary_17864801314860/Dashboard2)**
+
+[![Calwest Regional Performance Summary](./tableau-projects/calwest-regional-performance.png)](https://public.tableau.com/app/profile/muhammad.abdullah7552/viz/CalwestRegionalPerformanceSummary_17864801314860/Dashboard2)
+
+**Overview**
+
+A geographic and promotional performance dashboard examining regional sales distribution, product-level revenue and the contribution of promotional campaigns to overall sales.
+
+**Key Features:**
+- **Dual-Layer Geographic Map:** Combines a filled map distinguishing the four US regions (Central, East, South and West) with a proportional symbol overlay sized by state-level gross revenue.
+- **Promotional Mix Analysis:** 100% stacked bar chart comparing the percentage of gross revenue generated with and without promotions across monthly intervals from 2020 to 2021, using a Percent of Total table calculation computed along Table (Down).
+- **Product Treemap:** Visualizes gross revenue by product subcategory, using rectangle size to represent revenue, color to distinguish product categories and embedded labels to display profit margins.
+- **Cross-Dashboard Navigation:** Custom navigation icon allows users to move between the E-Commerce and Regional Performance dashboards.
 
 ---
 
